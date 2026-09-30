@@ -13,7 +13,7 @@ function Gerar(){
     }
     else{
         for(v = 0; v <= 10; v++){
-            saída = saída + numero +"x" + v + "=" + (numero*a) + "<br>";
+            saída = saída + numero +"x" + v + "=" + (numero*v) + "<br>";
         }
     }
     document.getElementById("resultado").innerHTML = saída
