@@ -12,7 +12,7 @@ function Gerar(){
         saída = "<h3> Número grande </h3> "
     }
     else{
-        for(v=0;a<=10;v++){
+        for(v = 0; v <= 10; v++){
             saída = saída + numero +"x" + v + "=" + (numero*a) + "<br>";
         }
     }
